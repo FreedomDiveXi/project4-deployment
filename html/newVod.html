@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+	<title>Add New Video</title>
+</head>
+
+<body>
+	<h1>Add Video</h1>
+
+	<form action="/video/newVod" method="post" enctype="application/x-www-form-urlencoded">
+		<label for="title">Video Title:</label>
+		<input type="text" id="title" name="title" required><br/>
+
+		<label for="url">Video Url:</label>
+		<input type="text" id="url" name="url" required><br/>
+
+		<button type="submit">Add</button>
+	</form>
+
+	<button type="button" onclick="window.location.href='/video/dashboard'">Cancel</button>
+</body>
