@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<title>Video Dashboard</title>
+</head>
+
+<body>
+	<h1>Video Dashboard</h1>
+
+	<button onclick="redirectAddVideo()">Add New Video</button>
+	<script>
+		function redirectAddVideo(){
+			window.location.href = "/video/newVod";
+		}
+	</script>
+
+	<br/>
+
+	<button onclick="redirectAllVideo()">View All Videos</button>
+	<script>
+		function redirectAllVideo() {
+			window.location.href = "/video/dashboard/allVideo";
+		}
+	</script>
+</body>
